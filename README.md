@@ -18,11 +18,16 @@ Delete the temporary OOBE registry keys after logon cleanup.
 
 ## Notes
 Must be run with administrator privileges.
+
 To run the script from OOBE:
 At the region selection screen press Shift+F10 to open a command prompt.
+
 Type explorer and press Enter.
+
 In File Explorer locate the script, right-click it and choose Run as administrator.
+
 You can copy the script to a USB drive first and run it from there.
+
 Or run it directly from the command prompt by typing the full path, for example: E:\OOBE.bat.
 
 Works on 25H2 (Didn't checked dev)
