@@ -31,7 +31,7 @@ This is a simplified version that **does not use unattend.xml** or any other aut
 ## How to run the script from OOBE
 
 1. Copy the script to a USB drive first.
-1. At the region selection screen, press **Shift + F10** to open a command prompt.
+1. At the region selection screen, press **Shift + F10** to open a command prompt **OR** **FN Shift + F10** if you’re on a laptop.
 2. Type: `explorer` and press Enter.
 3. In File Explorer, locate the script, right-click it, and choose **Run as administrator**. Or run it directly from the command prompt by typing the full path, for example: `E:\\OOBE.bat`
 4. Continue OOBE without needing to sign in with a Microsoft account :)
