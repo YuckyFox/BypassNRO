@@ -24,18 +24,14 @@ This is a simplified version that **does not use unattend.xml** or any other aut
 ## Notes
 
 - Must be run with **administrator privileges**.
+- Works on Windows 25H2 (not tested on Dev).
 
 ---
 
 ## How to run the script from OOBE
 
 1. At the region selection screen, press **Shift + F10** to open a command prompt.
-2. Type: explorer and press Enter.
+2. Type: `explorer` and press Enter.
 3. In File Explorer, locate the script, right-click it, and choose **Run as administrator**.
 4. You can copy the script to a USB drive first and run it from there.
-5. Or run it directly from the command prompt by typing the full path, for example: E:\OOBE.bat
-
----
-
-**Note:**  
-Works on Windows 25H2 (not tested on Dev).
+5. Or run it directly from the command prompt by typing the full path, for example: `E:\\OOBE.bat`
