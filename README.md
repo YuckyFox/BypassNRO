@@ -1,6 +1,6 @@
 # Windows OOBE Bypass
 
-This batch script modifies Windows registry settings and schedules temporary tasks to simplify the Out-of-Box Experience (OOBE) setup process.  
+This batch script modifies Windows registry settings and schedules temporary tasks to simplify the Out-of-Box Experience (OOBE) setup process. Disabling need for a Microsoft Account.
 This is a simplified version that **does not use unattend.xml** or any other automated setup tools.
 
 ---
@@ -30,8 +30,8 @@ This is a simplified version that **does not use unattend.xml** or any other aut
 
 ## How to run the script from OOBE
 
+1. Copy the script to a USB drive first.
 1. At the region selection screen, press **Shift + F10** to open a command prompt.
 2. Type: `explorer` and press Enter.
-3. In File Explorer, locate the script, right-click it, and choose **Run as administrator**.
-4. You can copy the script to a USB drive first and run it from there.
-5. Or run it directly from the command prompt by typing the full path, for example: `E:\\OOBE.bat`
+3. In File Explorer, locate the script, right-click it, and choose **Run as administrator**. Or run it directly from the command prompt by typing the full path, for example: `E:\\OOBE.bat`
+4. Continue OOBE without needing to sign in with a Microsoft account. :)
