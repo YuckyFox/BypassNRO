@@ -10,4 +10,3 @@ schtasks /Create /F /TN BypassNRO /RU SYSTEM /SC ONLOGON /RL HIGHEST /TR "cmd /c
 schtasks /Create /F /TN HideOnlineAccountScreens /RU SYSTEM /SC ONLOGON /RL HIGHEST /TR "cmd /c reg delete \"HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\OOBE\" /v HideOnlineAccountScreens /f & schtasks /Delete /TN HideOnlineAccountScreens /F" > NUL
 schtasks /Create /F /TN HideWirelessSetupInOOBE /RU SYSTEM /SC ONLOGON /RL HIGHEST /TR "cmd /c reg delete \"HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\OOBE\" /v HideWirelessSetupInOOBE /f & schtasks /Delete /TN HideWirelessSetupInOOBE /F" > NUL
 exit
-
