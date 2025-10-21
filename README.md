@@ -1,6 +1,7 @@
 # Windows OOBE Bypass
 
 This batch script modifies Windows registry settings and schedules temporary tasks to simplify the Out-of-Box Experience (OOBE) setup process.
+This is a simplified version that does not use unattend.xml or any other automated setup tools.
 
 ## What it does
 
