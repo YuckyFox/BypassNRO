@@ -16,7 +16,7 @@ This is a simplified version that **does not use unattend.xml** or any other aut
   - Disable the first logon animation
 
 - **Creates scheduled tasks that:**
-  - Run `ipconfig /renew` on logon
+  - Run `ipconfig /renew` on logon (Restores Internet Connection)
   - Delete the temporary OOBE registry keys after logon
 
 ---
@@ -34,4 +34,4 @@ This is a simplified version that **does not use unattend.xml** or any other aut
 1. At the region selection screen, press **Shift + F10** to open a command prompt.
 2. Type: `explorer` and press Enter.
 3. In File Explorer, locate the script, right-click it, and choose **Run as administrator**. Or run it directly from the command prompt by typing the full path, for example: `E:\\OOBE.bat`
-4. Continue OOBE without needing to sign in with a Microsoft account. :)
+4. Continue OOBE without needing to sign in with a Microsoft account :)
